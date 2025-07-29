@@ -1,0 +1,249 @@
+/*
+############################################################################
+############################################################################
+############################################################################
+*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+/* Bu bloğu sonradan ekledim daha yeni. Bu şekilde dursun şimdilik.*/
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.A1,
+.A2,
+.A3,
+.mail,
+.tel {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.wslogo:hover,
+.A1:hover,
+.A2:hover,
+.A3:hover,
+.mail:hover,
+.tel:hover {
+  color: #404bbf;
+}
+
+.A1:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.wslogo {
+  color: #4d5ae5;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  width: 1440px;
+  margin: auto;
+}
+
+header .container {
+  padding: 24px 156px 24px 156px;
+}
+
+.navul {
+  display: flex;
+  padding: 0px 332px 0px 76px;
+  gap: 40px;
+}
+
+.addressul {
+  display: flex;
+  gap: 40px;
+}
+
+.ilk-alan {
+  width: 1440px;
+  margin: auto;
+  height: 600px;
+  background: #2e2f42;
+}
+
+.ilk-alan .container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ilk-alan .container h1 {
+  margin: auto;
+  /*width: 496px;
+  height: 120px;*/
+  margin: 188px 472px 0px 472px;
+}
+
+.wslogo span {
+  color: #2e2f42;
+}
+
+.tus {
+  background-color: #4d5ae5;
+  color: #fff;
+  cursor: pointer;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  margin: 48px 163px 188px 164px;
+}
+
+.tus:hover {
+  background-color: #404bbf;
+}
+
+.ikinci-alan .container {
+  margin: auto;
+}
+
+.containerul {
+  /*width: 1128px;
+  height: 104px;*/
+  margin: auto;
+  display: flex;
+  align-content: space-between;
+  margin: 120px 156px 120px 156px;
+  gap: 24px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.1;
+  color: #fff;
+}
+
+h2 {
+  font-weight: bold;
+  color: #2e2f42;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: Medium;
+  color: #2e2f42;
+}
+
+.our-team {
+  /*width: 1440px;*/
+  /*height: 732px;*/
+  /*margin: auto;*/
+  background: #f4f4fd;
+}
+
+.our-team .container {
+  margin: auto;
+  flex-direction: column;
+}
+
+.our-team h2 {
+  padding: 120px 639px 0px 639px;
+}
+
+.our-team .containerul2 {
+  display: flex;
+  margin: auto;
+  padding: 72px 156px 120px 156px;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.ourportfolio {
+  /*width: 1312px;*/
+  /*height: 1377px;*/
+  margin: auto;
+}
+
+.ourportfolio .container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ourportfolio h2 {
+  padding: 129px 611px 0px 611px;
+  margin: auto;
+}
+
+.containerul3 {
+  display: flex;
+  /*justify-content: space-between;*/
+  /*flex-wrap: wrap;*/
+  gap: 24px;
+  padding-top: 72px;
+  margin: auto;
+  /*padding-left: 90px;*/
+  /*margin-bottom: 120px;*/
+}
+
+.containerul4 {
+  display: flex;
+  margin: auto;
+  padding-top: 48px;
+  margin-bottom: 120px;
+  gap: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  background: #2e2f42;
+  color: #f4f4fd;
+}
+
+footer .container {
+  margin: auto;
+  /*width: 1440px;*/
+  /*height: 312px;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  color: #4d5ae5;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration: none;
+
+  padding: 100px 1169px 16px 156px;
+}
+
+.footer-logo span {
+  color: #f4f4fd;
+}
+
+.footer-logo:hover {
+  color: #404bbf;
+}
+
+.footer-text {
+  padding: 0px 1020px 100px 156px;
+}
